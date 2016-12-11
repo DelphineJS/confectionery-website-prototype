@@ -131,9 +131,10 @@ h2 {
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   width: 100%;
+  line-height: 1.75;
 }
 
 .link-card-1 h3:hover {
@@ -145,6 +146,34 @@ h2 {
   text-align: center;
 }
 
-.link-card-2 {
+.link-card-2 img {
+  width: 40%;
+  display: inline-block;
+  height: 100%;
+}
 
+.link-card-2-content {
+  width: 50%;
+  display: inline-block;
+  font-size: .9rem;
+  padding: 5px;
+
+}
+
+.link-card-2 {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+.image-2 {
+  float: right;
+}
+
+section {
+  clear: both;
 }
