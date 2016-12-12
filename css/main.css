@@ -365,7 +365,7 @@ footer {
     margin: 0 0 1.3rem;
   }
 
-/* Header Styling */
+  /* Header Styling */
 
   .logo-circle p {
     font-size: 1.5rem;
@@ -377,7 +377,7 @@ footer {
     margin-bottom: 0;
   }
 
-/* Nav Styling */
+  /* Nav Styling */
 
   nav li {
     display: inline-block;
@@ -400,7 +400,7 @@ footer {
     overflow: hidden;
   }
 
-/* Bonbons Styling */
+  /* Bonbons Styling */
 
   h2 {
     font-size: 2.25rem;
@@ -415,7 +415,7 @@ footer {
     font-size: 1.1rem;
   }
 
-/* Location Styling */
+  /* Location Styling */
 
   .link-card-2-content {
     font-size: 1.2rem;
@@ -438,12 +438,12 @@ footer {
   .image-1 {
     padding-right: 15px;
   }
-/* Hours Styling */
+  /* Hours Styling */
 
-.link-card-3 {
-  overflow: hidden;
-  position: relative;
-}
+  .link-card-3 {
+    overflow: hidden;
+    position: relative;
+  }
 
   .link-card-3 img {
     float: left;
@@ -451,30 +451,119 @@ footer {
     padding: 30px;
   }
 
-.hours-content {
-  float: left;
-  width: 49%;
-  position: absolute;
-  transform: translateY(-50%);
-  top: 50%;
-  left: 50%;
+  .hours-content {
+    float: left;
+    width: 49%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 50%;
+  }
+
+  .hours-content p {
+    margin: 15px;
+  }
+
+  /* Blog Styling */
+
+  .blog-entry img {
+    width: 30%;
+    padding: 15px;
+  }
+
+  .blog-entry-content {
+    font-size: 1.5rem;
+  }
+
+  .blog-entry-content h3 {
+    font-size: 1.2rem;
+  }
+
 }
 
-.hours-content p {
-  margin: 15px;
-}
+@media only screen and (min-width: 38em) {
 
-/* Blog Styling */
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
-.blog-entry img {
-  width: 30%;
-  padding: 15px;
-}
+  /* Header Styling */
 
-.blog-entry-content {
-  font-size: 1.5rem;
-}
+  .logo-circle {
+    line-height: 100px;
+  }
 
-.blog-entry-content h3 {
-  font-size: 1.2rem;
+  .logo {
+    width: 100px;
+  }
+
+  .slogan-1 {
+    padding-right: 50px;
+  }
+
+  .slogan-2 {
+    padding-left: 50px;
+  }
+
+/* Nav Styling */
+
+  nav li {
+    width: 25%;
+    overflow: hidden;
+  }
+
+  nav {
+    height: 46px;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+/* Bonbons Styling */
+
+  .main-photo {
+    display: block;
+  }
+
+  figcaption {
+    padding: 10px;
+    background-color: #9f9f9f;
+    border-bottom: #4e4e4e 1px solid;
+    font-style: italic;
+    text-align: center;
+    font-size: .8rem;
+  }
+
+  figure {
+    text-align: center;
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    width: 380px;
+    border: none;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 1.3rem;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+/* Bonbon Square Styling */
+
+  .link-card-1 {
+    margin: 0 1px 30px;
+    width: 23%;
+
+  }
+
+  .link-card-1 h3 {
+    font-size: 1rem;
+  }
+
 }
