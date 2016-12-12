@@ -276,4 +276,27 @@ section {
   background-color: #9f9f9f;
   margin: 0;
   border: #4e4e4e 1px solid;
+  border-left: none;
+  border-right: none;
+}
+
+.blog {
+  background-color: #fff;
+}
+
+.blog-entry {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.blog-entry img{
+  width: 20%;
+  position: absolute;
+  left: 0;
+}
+
+.blog-entry-content {
+  width: 75%;
+  padding-left: 25%;
 }
