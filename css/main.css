@@ -506,7 +506,7 @@ footer {
     padding-left: 50px;
   }
 
-/* Nav Styling */
+  /* Nav Styling */
 
   nav li {
     width: 25%;
@@ -521,19 +521,10 @@ footer {
     text-align: center;
   }
 
-/* Bonbons Styling */
+  /* Bonbons Styling */
 
   .main-photo {
     display: block;
-  }
-
-  figcaption {
-    padding: 10px;
-    background-color: #9f9f9f;
-    border-bottom: #4e4e4e 1px solid;
-    font-style: italic;
-    text-align: center;
-    font-size: .8rem;
   }
 
   figure {
@@ -542,6 +533,9 @@ footer {
   }
 
   figcaption {
+    border-bottom: #4e4e4e 1px solid;
+    font-style: italic;
+    text-align: center;
     position: absolute;
     right: 25px;
     bottom: 25px;
@@ -554,7 +548,7 @@ footer {
     margin: 10px;
   }
 
-/* Bonbon Square Styling */
+  /* Bonbon Square Styling */
 
   .link-card-1 {
     margin: 0 1px 30px;
