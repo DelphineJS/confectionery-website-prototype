@@ -148,6 +148,12 @@ h2 {
   line-height: 1.75;
 }
 
+.blog-entry-content h3 {
+  font-size: .77rem;
+  margin: 0;
+  padding-top: 1em;
+}
+
 .link-card-1 h3:hover {
   color: #fff;
   background-color: rgba(0, 0, 0, .7);
@@ -280,7 +286,7 @@ section {
   border-right: none;
 }
 
-.blog-entry img{
+.blog-entry img {
   width: 20%;
   float: left;
   margin-left: 1rem;
@@ -303,13 +309,7 @@ section {
   padding-left: 27%;
 }
 
-.blog-entry-content h3 {
-  font-size: .77rem;
-  margin: 0;
-  padding-top: 1em;
-}
-
-time{
+time {
   display: inline;
 }
 
@@ -331,5 +331,11 @@ cite {
   color: #fff;
 }
 
-.blog {
+footer {
+  background-color: #9f9f9f;
+  margin: 0;
+  border: #4e4e4e 1px solid;
+  border-left: none;
+  border-right: none;
+  padding-left: 1rem;
 }
