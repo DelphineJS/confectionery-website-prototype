@@ -280,6 +280,12 @@ section {
   border-right: none;
 }
 
+.blog-entry img{
+  width: 20%;
+  float: left;
+  margin-left: 1rem;
+}
+
 .blog-entry {
   display: block;
   text-decoration: none;
@@ -287,16 +293,10 @@ section {
   padding: .4em .3em;
   border-radius: 8px;
   border: 3px solid #fff;
-  overflow: hidden;
   background-color: #fff;
   margin: 15px;
-  height: 82.5px;
-}
-
-.blog-entry img{
-  width: 20%;
-  position: absolute;
-  left: 25px;
+  overflow: hidden;
+  width: 91%;
 }
 
 .blog-entry-content {
@@ -304,7 +304,7 @@ section {
 }
 
 .blog-entry-content h3 {
-  font-size: .77em;
+  font-size: .77rem;
   margin: 0;
   padding-top: 1em;
 }
@@ -315,4 +315,21 @@ time{
 
 span {
   font-size: .75em;
+}
+
+cite {
+  font-style: normal;
+}
+
+.blog p {
+  padding: 1em 1em 0;
+}
+
+.blog-entry:hover {
+  background-color: #4e4e4e;
+  border-color: #4e4e4e;
+  color: #fff;
+}
+
+.blog {
 }
