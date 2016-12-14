@@ -188,7 +188,6 @@ h2 {
   width: 50%;
   display: inline-block;
   height: 100%;
-  padding: 10px;
 }
 
 .link-card-2-content {
@@ -437,7 +436,7 @@ footer {
   }
 
   .image-1 {
-    margin-right: 15px;
+    padding-right: 15px;
   }
   /* Hours Styling */
 
@@ -484,8 +483,6 @@ footer {
 
 @media only screen and (min-width: 30em) {
 
-  /* Locations styling */
-
   .our-locations {
     border-bottom: #4e4e4e 1px solid;
     text-align: center;
@@ -499,7 +496,7 @@ footer {
   }
 
   .link-card-2 {
-    margin: 10px;
+    margin: 20px 10px 10px;
     width: 210px;
     float: left;
     height: 450px;
@@ -604,8 +601,8 @@ footer {
     font-size: 1rem;
   }
 
-  /*Locations Styling*/
+  /* Locations styling */
 
-    .link-card-2 {
-      height: auto;
-    }
+.link-card-2 {
+  height: 500px;
+}
