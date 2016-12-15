@@ -481,27 +481,41 @@ footer {
 
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 32em) {
 
   .our-locations {
-    border-bottom: #4e4e4e 1px solid;
     text-align: center;
   }
+
+  .locations-title {
+    border-bottom: #4e4e4e 1px solid;
+  }
+
+  .image-1 {
+    margin: 0;
+    float: none;
+  }
+
+  .image-2 {
+    float: none;
+  }
+
   .link-card-2 {
     display: inline-block;
     position: relative;
     width: 46%;
     margin: 20px 5px 20px 0;
+    text-align: center;
   }
 
   .link-card-2 img {
     position: absolute;
     top: 10px;
     transform: translateX(-50%);
-    left: 42.5%;
-    width: 90%;
+    left: 50%;
+    width: 100%;
     max-height: 200px;
-    padding-top:
+    display: block;
   }
 
   .locations-title {
