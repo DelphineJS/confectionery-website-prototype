@@ -704,8 +704,80 @@ footer {
 
 }
 
-@@media only screen and (min-width:60em) {
+@media only screen and (min-width:60em) {
+
+.link-card-2:first-child {
+  margin-right: 20px;
+}
+
+.link-card-2:last-child {
+  margin-left: 20px;
+}
+
+.link-card-2 img {
+  left: 10px;
+  transform: none;
+  width: 25%;
+}
+
+.link-card-2-content {
+  width: 75%;
+  padding-top: 0;
+  padding-left: 25%;
+  height: 240px;
+}
+
+/*   .our-locations {
+    text-align: center;
+  }
+
+  .locations-title {
+    border-bottom: #4e4e4e 1px solid;
+    width: 100%;
+    display: block;
+  }
+
+  .image-1 {
+    margin: 0;
+    float: none;
+  }
+
+  .image-2 {
+    float: none;
+  }
+
+  .link-card-2 {
+    display: inline-block;
+    position: relative;
+    width: 46%;
+    margin: 20px 5px 20px 0;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .link-card-2 img {
+    position: absolute;
+    top: 10px;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 100%;
+    max-height: 200px;
+    display: block;
+  }
+
+  .link-card-2-content {
+    width: auto;
+    position: relative;
+    transform: none;
+    overflow: hidden;
+    padding-top: 200px;
+  }
 
 
+  .link-card-2-content p {
+    height: 100px;
+  }
+ */
 
 }
