@@ -772,11 +772,11 @@ footer {
 
   .link-card-2-content {
     width: 70%;
+    padding: 20px;
     padding-top: 0;
     height: 260px;
     font-size: 1.2rem;
     float: left;
-    padding: 20px;
   }
 
   .link-card-2-content h3 {
