@@ -491,6 +491,7 @@ footer {
 
   .our-locations {
     text-align: center;
+    margin-bottom: 0;
   }
 
   .locations-title {
@@ -512,10 +513,11 @@ footer {
     display: inline-block;
     position: relative;
     width: 46%;
-    margin: 20px 5px 20px 0;
+    margin: 20px 5px 0 0;
     text-align: center;
     border: none;
     border-radius: 8px;
+
   }
 
   .link-card-2 img {
@@ -723,12 +725,12 @@ footer {
     padding: .8rem;
   }
 
-.logo-circle p {
-  font-size: 2.25rem;
-}
+  .logo-circle p {
+    font-size: 2.25rem;
+  }
 
   li a {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .main-photo {
@@ -758,7 +760,7 @@ footer {
   }
 
   .link-card-2 img {
-    left: 10px;
+    left: 20px;
     transform: none;
     width: 25%;
   }
@@ -767,8 +769,45 @@ footer {
     width: 75%;
     padding-top: 0;
     padding-left: 25%;
-    height: 240px;
+    height: 260px;
+    font-size: 1.2rem;
   }
 
+  .link-card-2-content h3 {
+    font-size: 1.4rem;
+  }
+
+  .link-card-2 {
+    margin-top: 50px;
+  }
+
+  /* Hours Styling */
+
+  .btn {
+    font-size: 2.5rem;
+  }
+
+  .hours-content p {
+    font-size: 1.5rem;
+  }
+
+  .hours-content {
+    border: #4e4e4e 4px solid;
+    border-radius: 15px;
+    padding: 30px;
+    width: 40%;
+    margin: 0 40px 0 20px;
+  }
+
+  .link-card-3 img {
+    max-height: 550px;
+  }
+
+/* Blog Styling */
+
+  .blog p {
+    font-size: 1.5rem;
+    padding: 40px 20px;
+  }
 
 }
