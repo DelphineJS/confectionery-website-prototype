@@ -115,6 +115,11 @@ figcaption {
 
 figure {
   margin: 0;
+  max-width: 800px;
+}
+
+.image-wrap {
+  text-align: center;
 }
 
 h2 {
@@ -164,7 +169,6 @@ h2 {
 .blog-entry-content h3 {
   font-size: .77rem;
   margin: 0;
-  padding-top: 1em;
 }
 
 .link-card-1 h3:hover {
@@ -320,6 +324,7 @@ section {
 
 .blog-entry-content {
   padding-left: 27%;
+  transform: translateY(40%);
 }
 
 time {
@@ -473,6 +478,7 @@ footer {
 
   .blog-entry-content {
     font-size: 1.5rem;
+    transform: translateY(25%);
   }
 
   .blog-entry-content h3 {
@@ -536,11 +542,16 @@ footer {
     height: 100px;
   }
 
-/* Blog Styling */
+  /* Blog Styling */
 
-.blog-entry-content {
-  padding-top: 2rem;
-}
+  .blog p {
+    font-size: 1.1rem;
+    margin: 0 1rem;
+  }
+
+  .blog-entry-content {
+    padding-top: 1.3rem;
+  }
 
 }
 
@@ -552,6 +563,10 @@ footer {
   }
 
   /* Header Styling */
+
+  h1 {
+    font-size: 4rem;
+  }
 
   .logo-circle {
     line-height: 100px;
@@ -620,10 +635,10 @@ footer {
   }
 
   .link-card-1 h3 {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 
-  /*Hours Styling */
+  /* Hours Styling */
 
   .btn-big {
     font-size: 1.8rem;
@@ -632,5 +647,31 @@ footer {
   .hours-content p {
     font-size: 1.1rem;
   }
+
+  /* Blog Styling */
+
+  .blog-entry-content {
+    transform: translateY(50%);
+  }
+
+}
+
+@media only screen and (min-width: 50em) {
+
+  figcaption {
+    font-size: 2rem;
+    width: 60%;
+  }
+
+  .link-card-3 img {
+    max-height: 380px;
+    padding: 40px;
+  }
+
+}
+
+@@media only screen and (min-width:60em) {
+
+  
 
 }
