@@ -115,7 +115,7 @@ figcaption {
 
 figure {
   margin: 0;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .image-wrap {
@@ -536,7 +536,6 @@ footer {
     padding-top: 200px;
   }
 
-
   .link-card-2-content p {
     height: 100px;
   }
@@ -607,6 +606,8 @@ footer {
   figure {
     text-align: center;
     position: relative;
+    transform: translateX(-50%);
+    left: 50%;
   }
 
   figcaption {
@@ -651,7 +652,7 @@ footer {
 
   .blog-entry-content {
     transform: translateY(50%);
-    width:100%;
+    width: 100%;
   }
 
 }
@@ -687,7 +688,7 @@ footer {
     max-height: 200px;
     display: block;
     float: none;
-    }
+  }
 
   .blog-entry-content {
     width: auto;
@@ -704,80 +705,70 @@ footer {
 
 }
 
-@media only screen and (min-width:60em) {
+@media only screen and (min-width: 60em) {
 
-.link-card-2:first-child {
-  margin-right: 20px;
-}
-
-.link-card-2:last-child {
-  margin-left: 20px;
-}
-
-.link-card-2 img {
-  left: 10px;
-  transform: none;
-  width: 25%;
-}
-
-.link-card-2-content {
-  width: 75%;
-  padding-top: 0;
-  padding-left: 25%;
-  height: 240px;
-}
-
-/*   .our-locations {
-    text-align: center;
+  html {
+    font-size: 120%;
+    line-height: 1.5;
   }
 
-  .locations-title {
-    border-bottom: #4e4e4e 1px solid;
-    width: 100%;
-    display: block;
+  /* Header Styling */
+
+  h1 {
+    font-size: 5rem;
   }
 
-  .image-1 {
-    margin: 0;
-    float: none;
+  h2 {
+    font-size: 3rem;
+    padding: .8rem;
   }
 
-  .image-2 {
-    float: none;
+.logo-circle p {
+  font-size: 2.25rem;
+}
+
+  li a {
+    font-size: 1.25rem;
   }
 
-  .link-card-2 {
-    display: inline-block;
-    position: relative;
-    width: 46%;
-    margin: 20px 5px 20px 0;
-    text-align: center;
-    border: none;
-    border-radius: 8px;
+  .main-photo {
+    margin-top: 50px;
+  }
+
+  figcaption {
+    font-size: 2.5rem;
+    width: 65%;
+    padding: 40px 0;
+  }
+
+  /* Bonbons Styling */
+
+  .link-card-1 h3 {
+    font-size: 1.8rem;
+  }
+
+  /* Locations Styling */
+
+  .link-card-2:first-child {
+    margin-right: 20px;
+  }
+
+  .link-card-2:last-child {
+    margin-left: 20px;
   }
 
   .link-card-2 img {
-    position: absolute;
-    top: 10px;
-    transform: translateX(-50%);
-    left: 50%;
-    width: 100%;
-    max-height: 200px;
-    display: block;
+    left: 10px;
+    transform: none;
+    width: 25%;
   }
 
   .link-card-2-content {
-    width: auto;
-    position: relative;
-    transform: none;
-    overflow: hidden;
-    padding-top: 200px;
+    width: 75%;
+    padding-top: 0;
+    padding-left: 25%;
+    height: 240px;
   }
 
-
-  .link-card-2-content p {
-    height: 100px;
-  }
- */
 
 }
