@@ -142,10 +142,9 @@ h2 {
 
 .link-card-content {
   position: absolute;
-  left: 0;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   top: 50%;
-  transform: translateY(-50%);
+  left: 50%;
   overflow: hidden;
   text-align: center;
   width: 100%;
@@ -190,7 +189,7 @@ h2 {
 
 .link-card-2 img {
   width: 50%;
-  display: inline-block;
+  display: block;
   height: 100%;
 }
 
@@ -751,6 +750,10 @@ footer {
 
   /* Locations Styling */
 
+  .link-card-2 {
+    margin-top: 50px;
+  }
+
   .link-card-2:first-child {
     margin-right: 20px;
   }
@@ -777,10 +780,6 @@ footer {
     font-size: 1.4rem;
   }
 
-  .link-card-2 {
-    margin-top: 50px;
-  }
-
   /* Hours Styling */
 
   .btn {
@@ -803,11 +802,28 @@ footer {
     max-height: 550px;
   }
 
-/* Blog Styling */
+  /* Blog Styling */
 
   .blog p {
     font-size: 1.5rem;
     padding: 40px 20px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+  .link-card-2 {
+    max-width: 800px;
+  }
+
+  .blog-entry {
+    max-width: 800px;
   }
 
 }
