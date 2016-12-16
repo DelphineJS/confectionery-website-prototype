@@ -99,6 +99,15 @@ ul a:hover {
 
 /* Bonbons Styling */
 
+.bonbons-title {
+  background-color: #9f9f9f;
+  margin: 0;
+  border-top: #4e4e4e 1px solid;
+  border-bottom: #4e4e4e 1px solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .main-photo {
   display: block;
   width: 100%;
@@ -515,8 +524,8 @@ footer {
   .link-card-2 {
     display: inline-block;
     position: relative;
-    width: 46%;
-    margin: 20px 5px 0 0;
+    width: 40%;
+    margin: 20px;
     text-align: center;
     border: none;
     border-radius: 8px;
@@ -534,6 +543,7 @@ footer {
     position: relative;
     transform: none;
     overflow: hidden;
+    padding-bottom: 20px;
   }
 
   .link-card-2-content p {
@@ -659,6 +669,11 @@ footer {
 
 @media only screen and (min-width: 50em) {
 
+  .link-card-1 {
+    margin: 0 10px 20px;
+    width: 20%;
+  }
+
   figcaption {
     font-size: 2rem;
     width: 60%;
@@ -714,6 +729,11 @@ footer {
 
   /* Header Styling */
 
+  .bonbons-title {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
   h1 {
     font-size: 5rem;
   }
@@ -744,7 +764,7 @@ footer {
   /* Bonbons Styling */
 
   .link-card-1 h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   /* Locations Styling */
@@ -821,12 +841,94 @@ footer {
     line-height: 1.5;
   }
 
+  /* Header Styling */
+
+  h1 {
+    font-size: 7rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  .slogan-1 {
+    font-size: 2.5rem;
+    padding-right: 60px;
+  }
+
+  .slogan-2 {
+    font-size: 2.5rem;
+    padding-left: 60px;
+  }
+
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+
+  .logo-circle {
+    line-height: 100px;
+  }
+
+  li a {
+    font-size: 2.3rem;
+  }
+
+  .link-card-1 h3 {
+    font-size: 2.3rem;
+  }
+
   .link-card-2 {
     max-width: 800px;
   }
 
+  figure {
+    max-height: 900px;
+    max-width: none;
+    margin-top: 80px;
+  }
+
+  /* Bonbons Styling */
+
+  .link-card-2-content {
+    font-size: 170%;
+    height: 380px;
+  }
+
+  .link-card-2-content h3 {
+    font-size: 130%;
+  }
+
+  /* Hours Styling */
+
+  .hours {
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Blog Styling */
+
+  .blog {
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .blog-entry {
     max-width: 800px;
+  }
+
+  .blog-entry-content {
+    font-size: 2rem;
+  }
+
+  .blog-entry-content h3 {
+    font-size: 1.75rem;
+  }
+
+  .blog p {
+    font-size: 1.75rem;
   }
 
 }
